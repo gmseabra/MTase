@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" codebase="https://tripod.nih.gov/curvefit/" href="ncgc_curvefit.jnlp">
+<information>
+	<title>NCGC CurveFit</title>
+	<vendor>NCGC</vendor>
+	<offline-allowed/>
+</information>
+<security>
+	<all-permissions/>
+</security>
+<resources>
+	<j2se version="1.4+" max-heap-size="768M"/>
+	<jar href="signed_assay.jar"/>
+	<jar href="signed_h2.jar"/>
+	<jar href="signed_look.jar"/>
+	<jar href="signed_jaxen.jar"/>
+	<jar href="signed_dom4j.jar"/>
+	<jar href="signed_jsci.jar"/>
+	<jar href="signed_regexp.jar"/>
+	<jar href="signed_jfreechart.jar"/>
+	<jar href="signed_jcommon.jar"/>
+	<jar href="signed_freehep.jar"/>
+	<jar href="signed_aloe.jar"/>
+	<jar href="signed_jchem51.jar"/>
+	<jar href="signed_form.jar"/>
+	<jar href="signed_backport.jar"/>
+	<property name="verboseLogging" value="false"/>
+</resources>
+<application-desc main-class="gov.nih.ncgc.curvefit.HTSClient">
+</application-desc>
+</jnlp>
+

@@ -1,0 +1,7 @@
+.ipynb_checkpoints/
+__pycache__/
+chk/
+release/
+data/df_mordred_raw.pkl.bz2
+data/df_mordred_clean.pkl.bz2
+data/Docking
